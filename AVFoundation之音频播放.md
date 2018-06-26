@@ -10,7 +10,7 @@
 
 ```objc
 AVPlayer *player = [[AVPlayer alloc] init];
-NSURL *url = [[NSBundle mainBundle] URLForResource:zhao withExtension:@"mp3"];
+NSURL *url = [[NSBundle mainBundle] URLForResource:@"zhao" withExtension:@"mp3"];
 AVPlayerItem *apvL = [[AVPlayerItem alloc] initWithURL:url];
 //替换当前播放列表中音频资源
 [player replaceCurrentItemWithPlayerItem:apvL];

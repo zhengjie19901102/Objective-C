@@ -3,27 +3,27 @@
 
 实现事件方法后(返回值为IBAction),然后单击左侧不放然后拖线至storyboard的指定控件上松开单击键即可:
 
-<img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img7.png"/>
+<img src="img/img7.png"/>
 
 > 第二种方式:
 
 实现方法后(返回值为IBAction),然后选中storyboard中的指定控件，按住control键不放，然后单击不放拖线至指定方法实现处松开单击键和control键:
 
-<img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img8.png"/>
+<img src="img/img8.png"/>
 
 > 第三种方式:
 
 选中storyboard中的控件后，然后鼠标右键，在弹出来的菜单中单击要连线的事件左侧的空心圆不放然后拖线至实现方法处松开:
 
-<img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img9.png"/>
+<img src="img/img9.png"/>
 
 > 第四种方式:
 
 选中storyboard中的控件后按住control键不放，直接拖线至实现方法的ViewController的代码处，出现一小块横线后松开鼠标，此时会弹出一个菜单框。然后输入需要的参数后点击Done即可:
 
-<img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img10.png"/>
+<img src="img/img10.png"/>
 
-<img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img11.png"/>
+<img src="img/img11.png"/>
 
 参数名 | 参数解释
 ------| -------

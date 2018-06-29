@@ -41,7 +41,7 @@ OC中能动态扩展一个类的实例或类方法。类别的好处在于:能�
 
 <img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img5.png"/>
 
-`同样，因为分类实在运行时起作用，所以在类中调用未声明的分类方法也会报错:`
+`同样，因为分类是在运行时起作用，所以在类中调用未声明的分类方法也会报错:`
 <img src="/Users/zhengjie/Documents/文档笔记/objective-C/img/img6.png"/>
 
 --

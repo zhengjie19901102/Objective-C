@@ -27,6 +27,6 @@
 @end
 ```
 
-**`AutoresizingMask 与 AutoLayout俩者有冲突，所以用了AutoresizingMask 之后就能采用AutoLayout 了。`**
+**`AutoresizingMask 与 AutoLayout俩者有冲突，所以用了AutoresizingMask 之后就不能采用AutoLayout 了。`**
 
 <img src="img/storyboard中使用AutoReszingMask.png" width="40%"/>

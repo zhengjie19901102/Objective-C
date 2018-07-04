@@ -24,3 +24,6 @@ NSLayoutConstraint *marginBottom = [NSLayoutConstraint constraintWithItem:redVie
 [self.view addConstraint:marginLeft];
 [self.view addConstraint:marginBottom];
 ```
+
+
+**`添加约束必须要在控件已经加入到父控件后才能添加，因为约束添加前必须要已经存在控件了.`**

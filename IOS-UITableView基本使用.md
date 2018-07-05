@@ -65,3 +65,7 @@ numberOfSectionsInTableView -> 创建组
 (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection: -> 定义每个组有多少行
 (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath -> 定义每行中的内容
 ```
+tableView有两种显示样式:
+UItableViewStylePlain -> 默认
+UItableViewStyleGrouped -> 例如微信
+在storyboard中可以在`style`处设置
